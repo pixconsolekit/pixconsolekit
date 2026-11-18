@@ -1,8 +1,10 @@
 # PIX Console Kit
 
-**Dashboard e blocos de UI para fintech e SaaS no Brasil e na América Latina.**
+**PIX de ponta a ponta para Next.js + shadcn/ui: da cobrança ao 'Pago'.**
 
-PIX Console Kit é um kit de admin dashboard e blocos de interface para quem coloca PIX dentro do produto. As telas já nascem com status de pagamento, valores em real (R$) e documentos brasileiros. A base é Next.js 16, Tailwind CSS v4 e shadcn/ui.
+Cobrança → Webhook recebido → Pago.
+
+PIX Console Kit junta as telas e a camada de pagamentos num kit para Next.js. Você cria a cobrança, recebe o webhook e mostra o status, com adaptadores para os provedores que já usa no Brasil. A base visual é Next.js 16, Tailwind CSS v4 e shadcn/ui.
 
 ## O que tem dentro
 
@@ -13,6 +15,11 @@ PIX Console Kit é um kit de admin dashboard e blocos de interface para quem col
 - ✅ Campos de CPF e CNPJ com máscara e validação
 - ✅ Textos em português (Brasil) e inglês
 - ✅ `AGENTS.md` para agentes de código trabalharem bem no repositório
+- ✅ Camada de pagamentos única: criar cobrança, consultar status e estornar, com adaptadores prontos para AbacatePay e Mercado Pago (Asaas e Woovi em seguida)
+- ✅ Rota de webhook com verificação de assinatura e idempotência
+- ✅ Schema de cobranças
+- ✅ Telas de estorno (MED)
+- ✅ Guia de sandbox
 
 ## Stack
 
@@ -25,7 +32,7 @@ PIX Console Kit é um kit de admin dashboard e blocos de interface para quem col
 
 O kit ainda está em construção. A lista de espera abre em breve, junto com blocos de exemplo gratuitos sob licença MIT.
 
-Preço previsto: US$ 49 Personal e US$ 129 Team.
+Pré-venda para fundadores: R$ 97 (vagas limitadas). Depois: R$ 197 Personal / R$ 497 Team.
 
 - X: https://x.com/pixconsolekit
 - Lista de espera: em breve
@@ -35,9 +42,13 @@ Preço previsto: US$ 49 Personal e US$ 129 Team.
 
 ## In English
 
-PIX Console Kit is an admin dashboard and UI block kit for Brazilian and LATAM fintech and SaaS, built with Next.js 16, Tailwind CSS v4, and shadcn/ui. Inside: PIX payment status screens (pending, paid, expired), PIX QR checkout, a transactions table in BRL, receivables charts, masked and validated CPF/CNPJ inputs, PT-BR and EN copy, and an `AGENTS.md` so AI coding agents stay aligned with the repo.
+PIX Console Kit is end-to-end PIX for Next.js and shadcn/ui: from the charge to "Paid".
 
-Building in public. The waitlist opens soon, and free MIT sample blocks are on the way. Planned price: $49 Personal / $129 Team.
+Charge → Webhook received → Paid.
+
+Screens for PIX status (pending, paid, expired), QR checkout, a BRL transactions table, receivables charts, masked CPF/CNPJ inputs, PT-BR and EN copy, and an `AGENTS.md` for AI coding agents. On the backend: one payment layer (create a charge, check status, refund) with ready adapters for AbacatePay and Mercado Pago (Asaas and Woovi next), a webhook route with signature checks and idempotency, a charges schema, MED refund screens, and a sandbox guide.
+
+Building in public. Waitlist and free MIT sample blocks are coming soon. $49 Personal / $129 Team.
 
 - X: https://x.com/pixconsolekit
 - Waitlist: coming soon
