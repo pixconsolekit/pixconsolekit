@@ -4,7 +4,7 @@
 
 Cobrança → Webhook recebido → Pago.
 
-PIX Console Kit junta as telas e a camada de pagamentos num kit para Next.js. Você cria a cobrança, recebe o webhook e mostra o status, com adaptadores para os provedores que já usa no Brasil. A base visual é Next.js 16, Tailwind CSS v4 e shadcn/ui.
+PIX Console Kit junta as telas e a camada de pagamentos num kit para Next.js. Você cria a cobrança, recebe o webhook e mostra o status. Adaptadores de AbacatePay e Mercado Pago primeiro; Asaas e Woovi em seguida. A base visual é Next.js 16, Tailwind CSS v4 e shadcn/ui.
 
 ## O que tem dentro
 
@@ -30,13 +30,13 @@ PIX Console Kit junta as telas e a camada de pagamentos num kit para Next.js. Vo
 
 ## Construindo em público
 
-O kit ainda está em construção. A lista de espera abre em breve, junto com blocos de exemplo gratuitos sob licença MIT.
+O kit abre na semana de 15 de dezembro de 2026. A lista de espera está aberta, e a amostra MIT (status de PIX, valor em real, CPF/CNPJ e extrato) já pode ser copiada. O caminho do pagamento sai com o kit.
 
-Pré-venda para fundadores: R$ 97 (vagas limitadas). Depois: R$ 197 Personal / R$ 497 Team.
+Pré-venda para fundadores: R$ 97 (primeiros compradores). Depois: R$ 197 Personal / R$ 497 Team. Fora do Brasil: US$ 49 Personal / US$ 129 Team.
 
 - X: https://x.com/pixconsolekit
-- Lista de espera: em breve
-- Amostras gratuitas: Em breve, MIT
+- Entre na lista de espera: https://pixconsolekit.pixconsolekit.workers.dev
+- Amostra grátis, MIT: https://pixconsolekit.pixconsolekit.workers.dev/amostra
 
 ---
 
@@ -48,8 +48,10 @@ Charge → Webhook received → Paid.
 
 Screens for PIX status (pending, paid, expired), QR checkout, a BRL transactions table, receivables charts, masked CPF/CNPJ inputs, PT-BR and EN copy, and an `AGENTS.md` for AI coding agents. On the backend: one payment layer (create a charge, check status, refund) with ready adapters for AbacatePay and Mercado Pago (Asaas and Woovi next), a webhook route with signature checks and idempotency, a charges schema, MED refund screens, and a sandbox guide.
 
-Building in public. Waitlist and free MIT sample blocks are coming soon. $49 Personal / $129 Team.
+Building in public. Launch is the week of 15 December 2026. The waitlist is open, and the free MIT sample (PIX status, BRL amount, CPF/CNPJ, and the transactions table) is ready to copy. The payment path ships with the kit.
+
+In Brazil: R$ 97 founder pre-sale for first buyers, then R$ 197 Personal / R$ 497 Team. Abroad: US$ 49 Personal / US$ 129 Team.
 
 - X: https://x.com/pixconsolekit
-- Waitlist: coming soon
-- Free samples: coming soon, MIT
+- Join the waitlist: https://pixconsolekit.pixconsolekit.workers.dev
+- Free MIT sample: https://pixconsolekit.pixconsolekit.workers.dev/amostra
